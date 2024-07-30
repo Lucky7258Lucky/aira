@@ -1,0 +1,607 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-weight: 300;
+
+    }
+
+    .header nav.navbar.navbar-expand-lg {
+        background-color: transparent;
+        padding: 1.3rem;
+
+    }
+
+    .tlogo img {
+        height: 2rem;
+        width: 2rem;
+        margin-top: 0.3rem;
+    }
+
+    .para {
+        margin: 0rem 20rem;
+    }
+
+    .changenav {
+
+        background: transparent;
+
+    }
+
+    .nav-link {
+        display: block;
+        padding: .5rem 1rem;
+        color: white;
+        font-size: 1.2rem;
+
+    }
+
+    button {
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 7px 10px;
+    }
+
+    button.login {
+        border-radius: 0.63rem;
+    }
+
+    li.nav-item {
+        padding: 0rem 1rem;
+    }
+
+    .bgimage {
+        background-image: url("/images/header-background.jpg");
+        
+        height: 38rem;
+        width: 100%;
+        background-color: linear-gradient(black);
+        background-size: cover;
+        background-position: top;
+        object-fit: cover;
+    }
+
+    .hpmain {
+        margin-top: 10rem;
+        color: white;
+        font-size: 15px;
+        margin: 13rem 30px;
+    }
+
+    .bgimage button.dis.btn-success {
+        margin: 4px 0px 0px 16rem;
+        padding: 1rem;
+        font-size: 1rem;
+        border-radius: 1rem;
+    }
+
+    .hpmain h1 {
+        text-align: center;
+        font-size: 2.9rem;
+        font-weight: 800;
+    }
+
+    .jhulaphoto img {
+        height: 22rem;
+        border-radius: 7px;
+    }
+
+    .jhula {
+        font-size: 1.3rem;
+        font-weight: 900;
+        margin-top: 9rem;
+    }
+
+    .jhula p {
+        font-size: 14px;
+    }
+
+    .jhulaphoto {
+        margin-top: 7rem;
+    }
+
+    .jhulaphoto:hover {
+        transition: 0.3s linear;
+        transform: scale(1.1);
+    }
+
+    .ser {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .btn-success {
+        color: #fff;
+        background-color: #198754;
+        border-color: #198754;
+        margin-left: 3rem;
+    }
+
+    .oneph img {
+        height: 445px;
+        width: 676px;
+    }
+
+    .oneph {
+        padding-top: 10rem;
+    }
+
+    .allthree a {
+        border: 1px solid green;
+        border-radius: 50%;
+        padding: 10px 16px;
+        margin: 9px;
+        background-color: green;
+        color: white;
+    }
+    
+    .secondp a {
+
+        border: 1px solid green;
+        border-radius: 50%;
+        padding: 10px 16px;
+        margin: 9px;
+        text-decoration: none;
+    }
+
+    .thirdp a {
+
+        border: 1px solid green;
+        border-radius: 50%;
+        padding: 10px 16px;
+        margin: 9px;
+        text-decoration: none;
+
+    }
+
+    .threeof {
+        position: relative;
+    }
+
+    .threeof a.btn.btn-success {
+        position: absolute;
+    }
+
+    .threeof a:hover {
+        background-color: black;
+
+    }
+
+    .thirdp h3 {
+        font-size: 16px;
+        padding-top: 32px;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+
+    .allthree h6 {
+        font-size: 15px;
+        color: darkgoldenrod;
+    }
+
+    .firstp p {
+        color: darkgoldenrod;
+        padding-bottom: 2rem;
+        margin: 0px 52px;
+    }
+
+    .secondp h3 {
+        font-size: 1rem;
+        margin-top: 13px;
+    }
+
+    .onep {
+        margin-top: 13rem;
+    }
+
+    .thirdp h3 {
+        font-size: 16px;
+        padding-top: 32px;
+    }
+
+    .onep h3 {
+        padding-bottom: 17px;
+    }
+
+
+    details {
+        position: absolute;
+        top: 17px;
+        color: #fff;
+        background-color: #32db79;
+        margin: 1rem 4rem;
+    }
+
+
+    .img-contant,
+    .img-contant2 {
+        margin: 1rem auto;
+        padding: 0 8rem;
+    }
+
+    .img-contant a {
+        border: 2px solid black;
+        padding: 0.5rem 1rem;
+        border-radius: 50%;
+        text-decoration: none;
+        color: black;
+        margin: 0 0.2rem;
+    }
+
+    .img-contant h4 {
+        font-weight: 800;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 2rem
+    }
+
+    .img-contant h5 {
+        margin-top: 1rem;
+        padding: 1rem 0;
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+
+    .business-heading h4 {
+        font-weight: 700;
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 2rem 0 1rem 1rem
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 100%;
+        padding-right: var(--bs-gutter-x, .75rem);
+        padding-left: var(--bs-gutter);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .img-contant2 h5 {
+        margin: 0.5rem 1rem;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .img-contant p {
+
+        padding-left: 3rem;
+    }
+
+    .img-contant2 p {
+        margin-left: 1rem;
+    }
+
+    .img-contant2 h6 {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .imgcontant-img img {
+        height: 445px;
+        width: 660px;
+    }
+
+    .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #32db79;
+    }
+
+    .setim {
+        margin: 4rem 13rem;
+    }
+
+    .setim img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .read {
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .read p {
+        padding: 0px 21rem;
+    }
+
+    .threecard h6 {
+        margin: 0rem 1.6rem;
+    }
+
+    .cm {
+        padding: 2px 2rem;
+    }
+
+    .bgblue {
+        background-color: #153d52;
+        color: white;
+        padding: 9rem 0rem;
+    }
+
+    input#colFormLabelSm {
+        height: 2rem;
+        background-color: #153d52;
+    }
+
+    span.carousel-control-next-icon {
+        background-color: black;
+
+    }
+
+    span.carousel-control-prev-icon {
+        background-color: black;
+    }
+
+    .policy img {
+        margin-left: 5rem;
+        width: 30rem;
+    }
+
+
+    .bgblue button.btn.btn-success {
+        margin: 1rem 6rem;
+        width: 83%;
+        padding: 0.6rem;
+    }
+
+    .fanker button.btn.btn-success {
+        width: 11rem;
+    }
+
+    .projects {
+        text-align: center;
+        margin: 4rem 0rem 0rem 0rem;
+    }
+
+    .fanker {
+        text-align: center;
+        margin: 3rem 0px;
+    }
+
+    .fanker a :hover {
+        background-color: black;
+    }
+
+    .allimg img {
+        height: 18rem;
+        
+    }
+    .oneim {
+         
+        overflow: hidden;
+    }
+    .oneim img:hover{
+        transition: 0.3s linear;
+        transform: scale(1.1);
+    }
+    .mid-head {
+        text-align: center;
+        margin: 5rem 0rem;
+        font-weight: 600;
+    }
+
+    .owner-img {
+        height: 10rem;
+        width: 10rem;
+        margin: 0.5rem auto;
+        overflow: hidden;
+    }
+    .card-box {
+        margin: 10rem 0rem;
+    }
+    .sixlogoo img {
+        width: 47%;
+        height: 3rem;
+    }
+
+    .owner-img img:hover {
+        transform: scale(1.1);
+    }
+
+    .owner-details p {
+        font-size: 15px;
+        color: #9daa91;
+        line-height: 2px;
+        text-align: center;
+    }
+    .img-detail {
+        margin-top: 2rem;
+    }
+    .owner-details h6 {
+        line-height: 2px;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .owner-media-show {
+        position: relative;
+    }
+
+    .owner-icon {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .owner-icon img {
+        height: 30px;
+        margin: 0 10px;
+        width: 30px;
+    }
+
+    .owner-media {
+        position: absolute;
+        top: 3px;
+        left: 1.7rem;
+    }
+
+    .owner-media img {
+        height: 20px;
+        width: 20px;
+        margin-left: 2rem;
+    }
+
+
+    .num-like-box h2 {
+        font-size: 2rem;
+        color: #32db79;
+        font-weight: 800;
+    }
+
+    .num-like-box p {
+        line-height: 15px;
+        margin-top: 2px;
+        font-weight: 800;
+         font-size: 13px;
+        
+    }
+
+    .contact-box a {
+        color: #32db79;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .contact-box h3,
+    .contact-box h4 {
+        font-weight: 700;
+    }
+
+    .contact-box p {
+        color: rgb(110, 108, 108);
+        text-decoration: none;
+        font-size: 15px;
+        margin-top: 1rem;
+
+    }
+
+    .contact-box img {
+        height: 20px;
+        width: 20px;
+    }
+
+    #media_logo_2 {
+        margin-right: 10px;
+        position: relative;
+    }
+
+    #media_logo_2 {
+        width: 50px !important;
+    }
+
+    #media_logo_2 span {
+        font-size: 20px;
+    }
+
+    #media_logo_2 img {
+        width: 100%;
+    }
+
+    #media_logo_2 span {
+        position: absolute;
+        top: 5px;
+        left: 15px;
+    }
+
+    #media_logo_2 span:hover {
+        cursor: pointer;
+        background: none;
+    }
+    
+
+
+    .submit {
+        padding: 0.5rem 5rem;
+        background-color: #32db79;
+        color: #fff;
+    }
+
+    .submit:hover {
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #32db79;
+    }
+
+
+    .map iframe {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    footer {
+        background-color: #201E43;
+        padding: 2rem;
+        margin-top: 2rem;
+
+    }
+
+    .footer-section {
+        margin-top: 5rem;
+    }
+
+    .footer-about {
+        padding-top: 3rem;
+
+        margin-left: 5rem;
+    }
+
+    .footer-about h3 {
+        font-size: 1.4rem;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .footer-about p {
+        color: #a4a2a2;
+        font-size: 14px;
+        width: 20rem;
+
+    }
+
+    .footer-tooling {
+        padding-top: 3rem;
+
+    }
+
+    .last-links {
+        margin: 0 1rem;
+    }
+
+    .last-links h3 {
+        font-size: 1.4rem;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .last-links a {
+        display: block;
+        font-size: 12px;
+        color: #a4a2a2;
+    }
+
+    .foot {
+        text-align: center;
+        margin-top: 3rem;
+
+    }
+
+    .foot a {
+        color: #fff;
+        font-size: 13px;
+
+
+    }
