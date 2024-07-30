@@ -411,6 +411,10 @@
     .owner-img img:hover {
         transform: scale(1.1);
     }
+   .sixlogoo img {
+    width: 12rem;
+    height: 2rem;
+}
 
     .owner-details p {
         font-size: 15px;
